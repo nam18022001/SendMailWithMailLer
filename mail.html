@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Style -->
+    <style>
+        .top{
+            background-color: rgba(0, 0, 0, 0.299);
+            text-align: center;
+            border: 1px rgb(6, 69, 133) solid;
+            
+        }
+        .logo{text-align: center;}
+
+        .info h1, .info h3, .info h2{
+            letter-spacing: 1px;
+            text-align: center;
+            font-family: Courier;
+            color: rgb(255, 255, 255);
+        }
+        
+        .background{
+                
+                background-repeat: no-repeat;
+                background-image: url(https://daphovinahotel.com/wp-content/uploads/2019/07/N5_9842_SENIOR_6.jpg) ;
+                background-size: cover;
+        }
+        .btn{
+            
+            text-decoration: none;
+            display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}@media (prefers-reduced-motion:reduce){.btn{transition:none}}.btn:hover{color:#212529;text-decoration:none}.btn.focus,.btn:focus{outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25)}
+        .btn-success{color:rgb(31, 131, 231);background-color:#00ffe5;border-color:#28a745}.btn-success:hover{color:#fff;background-color:#00ddff;border-color:#1e7e34}.btn-success.focus,.btn-success:focus{box-shadow:0 0 0 .2rem rgba(72,180,97,.5)}
+        .buttonrVerify{
+            font-family:times;
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+        <br><br><br><br><br><br>
+        <div class="cover">
+      <div class="background">
+          <br>
+        <div class="logo"><img src="https://lh3.googleusercontent.com/cef4ULEs_cuzSi_PRU3w73P_vEmtqSFBz3TdyZZwb_XJk3ue-4lhBkW9hoc6i-FHkXnycLHAQzda4beNM3hc4NHj-tx7MpKPFgBy417ISuTYFdJG_Eeo0m7EVjo-BjWdML19M_i9fUI9BnrFwnT6u8KHYuCwCL5vY0X3EHpLwUFXc06DmZQV3YnI5OCQ6GEkr4vvwPlpomZvsAjA6aaeyPp6iMJ0mfwFhQrXvtC8VU97EAd4yWiqfuGufdNVl-ca2Ai-I8IieE5jp-fABZ5XQaDnzmw-jjbKHUuAeySd0h9i8WoBKyiq0AsZEmEDW8eFSKeXveqUVQu6blPmnDlonhj6n3JdVXAG_vlyhgjn-31L26JmZ33jxJQvilx_ePXNLVomdC3xmiXqphNipHiSGRGF3X9G2nsVuDF8t2i92aIjCAZeAjdH0bn3F86xsc2jMnALAbO_PQIoaiaRSZhvx7ayCLZudCIlVL3hnBSbxmaN-ofapTuWyWzGEwXH-IMD0gPRJyxMxqoRyfcS-yMTXU-2BkaEEv-q-cfWdDb8AYRWjUlnI8tmoQVICqhwRSGAk0bijPIcNQTBFvtsJn1AkHPsVjSs5jijnIjxwFUGpTeR33e1TjWgUnemAkxnncuLbHJsFQre07pOkJiz6fGyYCnKhuv5jmaEhEBGfwzUPnrhwMTtQULqK522VO8=s500-no?authuser=0" width="30%" alt="" srcset=""></div>
+          <div class=" top">
+                    <div class="info">
+                        <h1>Xin Chào, <b>'.$u.'</b></h1>
+                        <h2>Hãy xác nhận email của bạn</h2>
+                        <h3>Đây là code của bạn: <b>'.$activation.'</b></h3>
+                        <h3>Hoặc bạn có thể bấm vào nút ở dưới</h3>
+          </div>
+           
+        </div>
+                <br><br><br>
+        <div class="buttonrVerify mt-3">
+            <a class="btn btn-success" href="'.$base_url.'verify.php?vkey='.$activation.'">VeriFy Email</a>
+            <br><br><br>
+        </div>
+</div>
+</div>
+  </body>
+</html>
