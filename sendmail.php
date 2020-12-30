@@ -3,7 +3,7 @@
     include('PHPMailer-5.2.26/class.smtp.php');
     include "PHPMailer-5.2.26/class.phpmailer.php"; 
     $nFrom = "Hoàng Nam";    //mail duoc gui tu dau, thuong de ten cong ty ban
-    $mFrom = 'hnvnam.19it3@vku.udn.vn';  //dia chi email cua ban 
+    $mFrom = '********************************';  //dia chi email cua ban 
     $mPass = '********************************';       //mat khau email cua ban
     $nTo = ''; //Ten nguoi nhan
     $mTo=$e;
